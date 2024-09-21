@@ -1,0 +1,94 @@
+body{
+    width: 100%;
+     height: 100vh;
+   margin:0;
+    background-color: #8AAAE5;
+     color:#FCF6F5;
+   }
+   
+   #title{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: black;
+    font-family: Monaco;
+   }
+   
+   #description{
+   margin: 0 auto;
+   font-style:italic;
+   color:black;
+   }
+   
+   h1, p {
+     text-align: center;
+   }
+   
+   form {
+     width: 60vw;
+     max-width: 500px;
+     min-width: 300px;
+     margin: 0 auto;
+     padding-bottom: 2em;
+   }
+   
+   hr{
+     border: none;
+     border-bottom: 3px solid #3b3b4f;
+   }
+   
+   fieldset {
+     border: none;
+     padding: 2rem 0;
+     border-bottom: 3px solid #3b3b4f;
+   }
+   
+   label {
+     display: block;
+     margin: 0.5rem 0;
+   }
+   
+   #name{
+      max-width: 500px;
+      min-width: 300px;
+   }
+   
+   #email{
+      max-width: 500px;
+      min-width: 300px;
+   }
+   
+   #number{
+      max-width: 500px;
+      min-width: 300px;
+   }
+   
+   input,
+   textarea,
+   select {
+     width: 100%;
+     margin: auto;
+     min-height: 2em;
+     font-size: 0.67em;
+   }
+   
+   .inline {
+     width: unset;
+     margin: 0 0.5em 0 0;
+     vertical-align: middle;
+     display: inline; 
+   }
+   
+   fieldset:last-of-type {
+     border-bottom: none;
+   }
+   
+   button {  
+     display: block;
+     width: 60%;
+     margin: 1em auto;
+     height: 2em;
+     font-size: 1.1rem;
+     border-color: #FCF6F5;
+     min-width: 300px;
+   }
