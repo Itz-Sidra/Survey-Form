@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <h1 id="title">Customer Satisfaction Survey Form</h1>
+    <p id="description">Thankyou for participating in this survey.</p>
+    <hr>
+
+    <form id="survey-form">
+    <fielset>
+
+      <!--Name input-->
+      <label for="name">Full Name: 
+        <input id="name" name="full-name" type="text" placeholder="Enter your name" required/>
+        </label>
+
+      <!--Email input-->
+      <label for="email">Email:
+         <input id="email" name="email" type="email" placeholder="Enter your email" required/>
+         </label>     
+
+      <!--Alternate Email-->
+      <label id="email-label">Alternate Email (optional): 
+        <input id="email-label" name="alt-email" type="email" placeholder= "Enter alternate email" />
+        </label>
+
+      <hr>
+      <!--Gender Dropdown-->
+      <label>Gender: 
+        <select id="dropdown" name="gender" required>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Others</option>
+          <option>Prefer not to say<option>
+        </select>
+      </label>
+
+      <!--Age Dropdown-->
+      <label>Age: 
+        <select id="age" name="age" placeholder="Age" required>
+          <option value="" disabled selected>Select your age range</option>
+          <option value="under18">Under 18</option>
+          <option value="18-24">18-24</option>
+          <option value="25-34">25-34</option>
+          <option value="35-44">35-44</option>
+          <option value="45+">45+</option>>
+        </select>
+      </label>
+
+      <!--State Input-->
+      <label id="name-label">State: 
+        <input id="name-label" name="state" type="text" placeholder="e.g. Maharashtra" required/>
+      </label>
+    </fieldset>
+
+    <hr>
+
+    <!--Radio Button-->
+    <fieldset>How satisfied are you with our service?
+    <label>
+      <input type="radio" name="attribute" class="inline" value="1" checked> Very-Satisfied
+    </label>
+    <label>
+      <input type="radio" name="attribute" class="inline" value="2"> Satisfied
+    </label>
+    <label>
+      <input type="radio" name="attribute" value="3" class="inline"> Neutral
+    </label>
+    <label></label>
+      <input type="radio" name="attribute" value="4" class="inline"> Dissatisfied
+    </label>
+    </fieldset>
+
+    <!--CheckBox-->
+    <fieldset>What do you like about our service? (Check all that apply)
+      <label>
+        <input type="checkbox" value="delivery" class="inline">Price & Discounts
+      </label>
+      <label>
+        <input type="checkbox" value="packing" class="inline">Quality 
+      </label>
+      <label>
+        <input type="checkbox" value="customer service" class="inline">Customer Support
+      </label>
+    </fieldset>
+
+    <!--Additional Comment-->
+    <fieldset>
+      <label>Additional comment: <textarea row="5" cols="50" name="textarea" placeholder="Enter your comment"></textarea>
+      </label>
+    </fieldset>
+
+    <!--Submit Button-->
+    <fieldset>
+       <button type="submit">Submit</button>
+    </fieldset>
+  </form>
+  </body>
+</html>
