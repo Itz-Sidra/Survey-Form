@@ -22,4 +22,7 @@ Clean, minimalistic layout with appropriate spacing and alignment.
 3. Click the "Submit" button to send your responses (note: submission functionality is not implemented).
 
 ## Credits
-This project was created as part of a tutorial in freeCodeCamp's Responsive Web Design Certification. freeCodeCamp (https://www.freecodecamp.org/),is an open-source community that helps people learn to code for free.
+This project was built as part of a course from freeCodeCamp (https://www.freecodecamp.org/), an open-source community that helps people learn to code for free.
+
+## Demo
+You can access the live demo here:(https://itz-sidra.github.io/Survey-Form/))
